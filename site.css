@@ -1,0 +1,52 @@
+/* Formatacoes para as paginas do Site Escola*/
+/* Alterando fundo do corpo (body) do site: com borda de baixo relevo
+e cor vermelha*/
+body{
+    background: #ffffff;
+    border-style: inset;
+    border-width: 2px;
+    border-color:#8A0808
+
+}
+/* titulo da escola*/
+h2.vermelho{
+    margin: 3;
+    text-indent: 3ch;
+    background: #F7F7F7;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color:#8A0808;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: left;
+ }
+
+/* formatação conteudo*/
+p.conteudo{
+    margin: 3;
+    text-indent: 3ch;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*orientacao link*/
+p.direcao{
+    text-align: center;
+}
+
+li.open{
+    list-style: circle;
+} 
+
+li.closed {
+    list-style: disc;
+}
+
+h2.lista{
+    margin: 3;
+    text-indent: 3ch;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
