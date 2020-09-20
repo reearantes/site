@@ -1,43 +1,80 @@
-/* Formatacoes para as paginas do Site Escola*/
-/* Alterando fundo do corpo (body) do site: com borda de baixo relevo
-e cor vermelha*/
+/* Imagem de fundo (alterar o arquivo "bg.png" para trocar) | A fonte: https://www.toptal.com/designers/subtlepatterns/subtle-zebra-3d/ */
 body{
     background-image: url(bg.png);
-    border-style: inset;
-    border-width: 2px;
-    border-color:#8A0808
-
 }
+
+
+/* CSS DO MENU */
+ul.topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li.topmenu {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+    border-left:1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: darkslategray;
+  }
+  
+  .active {
+    background-color: darkgrey;
+  }
+
+li.direita{
+    float:right;
+}
+
+/* Imagem de fundo (alterar o arquivo "bg.png" para trocar) | A fonte: https://www.toptal.com/designers/subtlepatterns/subtle-zebra-3d/ */
+
 /* titulo da escola*/
 h2.vermelho{
-    margin: 3;
-    text-indent: 3ch;
-    background: #F7F7F7;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
     color:#8A0808;
-    font-weight: bold;
-    font-style: normal;
-    text-transform: capitalize;
-    text-align: left;
  }
 
 /* formatação conteudo*/
 p.conteudo{
     margin: 3;
-    text-indent: 3ch;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-/*orientacao link*/
-p.direcao{
-    text-align: center;
+/* formatação conteudo*/
+p.conteudo2{
+    margin: 3;
+    text-indent: 3ch;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
 li.open{
-    list-style: circle;
+    list-style: disc;
 } 
 
 li.closed {
@@ -50,3 +87,15 @@ h2.lista{
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+ul.topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
