@@ -2,7 +2,7 @@
 /* Alterando fundo do corpo (body) do site: com borda de baixo relevo
 e cor vermelha*/
 body{
-    background: #ffffff;
+    background-image: url(bg.png);
     border-style: inset;
     border-width: 2px;
     border-color:#8A0808
